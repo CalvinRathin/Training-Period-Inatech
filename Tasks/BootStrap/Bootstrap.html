@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .format{
+            background-color:aqua;
+            
+        }
+        .format1 {
+            background-color: greenyellow;
+        }
+
+    </style>
+</head>
+<body class="container-fluid">
+    <div class="container jumbotron">
+        <!--<table class="table">-->
+        <table class="table table-striped">
+            <tr>
+                <th>Sno</th>
+                <th>politician</th>
+                <th>party</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Rahul</td>
+                <td>Congress</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Arvind</td>
+                <td>AAP</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>moodi</td>
+                <td>BJP</td>
+            </tr>
+        </table>
+        <table class="table table-bordered">
+            <tr>
+                <td>Sno</td>
+                <td>Symbol</td>
+                <td>party</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>clock</td>
+                <td>NCP</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Broom</td>
+                <td>AAP</td>
+            </tr>
+        </table>
+        <table class="table table-hover">
+            <tr>
+                <td>Sno</td>
+                <td>Symbol</td>
+                <td>party</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>clock</td>
+                <td>NCP</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Broom</td>
+                <td>AAP</td>
+            </tr>
+        </table>
+        <table class="table table-responsive">
+            <tr class="btn-warning">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr class="danger">
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr class="p1">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <script>
+
+            $("td").hover(
+                function () {
+                    $(this).addClass("format");
+                },
+                function () {
+                    $(this).removeClass("format");
+                });
+            $("th").hover(
+                function () {
+                    $(this).addClass("format1");
+                },
+                function () {
+                    $(this).removeClass("format1");
+                });
+
+        </script>
+    </div>
+</body>
+</html>
+
+
+
